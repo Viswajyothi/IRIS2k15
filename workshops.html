@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <title>IRIS'15 | Workshops</title>
+    <meta content="IRIS'15" name="description">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Basil Arackal" name="author">
+    <meta content="#412A46" name="theme-color">
+    <link href="./img/filogo.jpg" rel="icon" sizes="192x192">
+    <link href="img/spinl.gif" rel="icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $("body").fadeIn(5000);
+    });
+    </script>
+    <style>
+    * {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .navbar-default {
+        background-color: #412A46;
+        border-color: rgba(42, 21, 32, 0);
+        box-shadow: 1px 1px 20px 1px #412A46;
+    }
+    
+    .navbar-default .navbar-nav>li>a {
+        color: #fff;
+    }
+    
+    #BrandIMG {
+        width: 85px;
+        border-radius: 100%;
+        box-shadow: 1px 1px 20px 1px #412A46;
+    }
+    
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: rgba(42, 21, 32, 1);
+    }
+    
+    body {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.82);
+        background-image: url('./img/newi.jpg');
+        display: block;
+        background-attachment: fixed;
+    }
+    
+    .navbar-default .navbar-nav>li>a:focus,
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #FED300;
+        background-color: transparent;
+    }
+    
+    #w1,
+    #w2,
+    #w3,
+    #w4 {
+        padding: 20px;
+        padding-top: 160px;
+        padding-bottom: 160px;
+    }
+    
+    blockquote img {
+        max-width: 150px !important;
+    }
+    
+    #w1 {
+        background-image: url('./img/latex.jpg');
+    }
+    
+    #w2 {
+        background-image: url('./img/neural3.jpg');
+    }
+    
+    #w3 {
+        background-image: url('./img/laview.jpg');
+    }
+    
+    #w4 {
+        background-image: url('./img/machinedesign.jpg');
+    }
+    
+    #workshops p {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 25px;
+        box-shadow: 2px 2px 2px black;
+        min-width: 200px;
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    
+    #workshops h2 span {
+        background-color: rgba(128, 38, 38, 0.83);
+        color: white;
+        padding: 10px;
+        border-radius: 5%;
+        margin-left: 5px;
+        box-shadow: 2px 2px 2px black;
+        white-space: nowrap;
+    }
+    
+    #workshops,
+    #talks, #chiefg {
+        padding-top: 20px;
+        margin-top: 52px;
+        background-color: white;
+    }
+    
+    .carousel-indicators li {
+        border: 1px solid #FF6D6D;
+    }
+    
+    .carousel-indicators .active {
+        background-color: #FBCB00;
+    }
+    
+    #talks {
+        padding-bottom: 50px;
+    }
+    
+    h1 {
+        font-family: 'Jura', sans-serif;
+    }
+    
+    #w1 h2 span,
+    #w2 h2 span,
+    #w3 h2 span,
+    #w4 h2 span {
+        font-family: Jura, sans-serif;
+        font-weight: bold;
+    }
+    
+    footer {
+        margin: 5px;
+        text-align: center;
+        background-color: white;
+        border-radius: 1%;
+    }
+    
+    footer img {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #chiefg{
+        font-size: 150%;
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle collapsed" data-target=".bs-navbar-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span> <span class="icon-bar"></span></button>
+                <a class="navbar-brand" href="../"><img id="BrandIMG" src="img/filogo.jpg"></a>
+            </div>
+            <nav class="collapse navbar-collapse bs-navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">
+                            <br>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../">Home</a>
+                    </li>
+                    <li class='active'>
+                        <a href="../workshops">Workshops</a>
+                    </li>
+                    <li>
+                        <a href="../register">Register</a>
+                    </li>
+                    <li>
+                        <a href="../contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </nav>
+    <div class='container-fluid body'>
+        <div id='workshops'>
+            <h1 class='text-center'>Workshops</h1>
+            <br>
+            <div class="carousel slide" data-ride="carousel" id="myCarousel">
+                <!-- Wrapper for slides -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <div id='w1'>
+                            <h2><span>LaTeX</span></h2>
+                            <p>Tired of setting format for preparing scientific papers and documents? IRIS’15 gives you a new useful tool . LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. The workshop will give an idea on how to use the software. With LaTeX we have to concentrate only on the contents but not on the format.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div id='w2'>
+                            <h2><span>Soft Computing Techniques & Image Processing</span></h2>
+                            <p>The workshop mainly focuses on the Neural Network for providing training for the features extracted from the digital images depending on the objects to be recognized. The concepts of Fuzzy system also will be mentioned in the workshop. The design of BPN, LVQ etc along with the feature extraction techniques using Matlab will be covered. The different Digital Image Processing techniques such as per-processing, noise removal, segmentation etc., will also be discussed.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div id='w3'>
+                            <h2><span>LabVIEW</span></h2>
+                            <p>LabVIEW is a system-design platform and development environment for&nbsp;visual programming language&nbsp;. It is commonly used for&nbsp;data acquisition,&nbsp;instrument control, and&nbsp;industrial automation&nbsp;on a variety of platforms including&nbsp;Microsoft Windows, various versions of&nbsp;UNIX,&nbsp;Linux, and&nbsp;Mac OS X. With LabVIEW, you can write sophisticated programs and applications in a shorter amount of time.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div id='w4'>
+                            <h2><span>Machine Design</span></h2>
+                            <p>Know more about engineering softwares particularly CREO software . Creo is a scalable, interoperable suite of product design software that delivers fast time to value. It helps teams create, analyze, view and leverage product designs downstream utilizing 2D CAD, 3D CAD, parametric & direct modeling. In this workshop you will be familiarised with engineering softwares for machine designing.</p>
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="sr-only">Previous</span></a> <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="sr-only">Next</span></a>
+                </div>
+            </div>
+        </div>
+        <div class='container-fluid' id='talks'>
+            <h1 class='text-center'>Talks</h1>
+            <br>
+            <blockquote class='col-md-6'>
+                <img class='img-responsive img-thumbnail img-circle' src='./img/mini.jpg'>
+                <div class='col-md-6'>
+                    <p>Women and Technology</p>
+                    <footer class='text-center'>
+                        Mrs. Mini Ulanat,
+                        <br>Chairperson​,
+                        <br>Kerala Section Computer Society
+                    </footer>
+                </div>
+            </blockquote>
+            <blockquote class='col-md-6'>
+                <img class='img-responsive img-thumbnail img-circle' src='./img/preethy.jpg'>
+                <div class='col-md-6'>
+                    <p>Women In Industry</p>
+                    <footer class='text-center'>
+                        Ms. Preethy V Warrier,
+                        <br>Secretary,
+                        <br> WIE Kerala Section
+                    </footer>
+                </div>
+            </blockquote>
+            <blockquote class='col-md-6'>
+                <img class='img-responsive img-thumbnail img-circle' src='./img/jacob.jpg'>
+                <div class='col-md-6'>
+                    <p>Free & Open Source Softwares</p>
+                    <footer class='text-center'>
+                        Mr. Jacob Mathai,
+                        <br> Asst professor, IT Department,
+                        <br> VJCET
+                    </footer>
+                </div>
+            </blockquote>
+        </div>
+        <footer class='container-fluid'>
+            <p>
+                <br>
+                <img class='img-responsive' style='max-width: 100px; float:left; margin-bottom: 10px;' src='./img/wie.png' />
+                <img class='img-responsive' style='max-width: 100px; float:right; margin-top: 20px;' src='./img/ieeeb.png' />
+                <span><a href='http://fb.me/Iris2k15'>f a c e b o o k</a> | coded with ♥ by
+    <a href='http://www.lmntrx.com'>Basil Arackal</a> & <a href='https://www.fb.me/akhil.kumar.507'>Akhil Kumar</a></span>
+            </p>
+            <br>
+        </footer>
+    </div>
+    <script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-68132144-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+</body>
+
+</html>

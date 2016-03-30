@@ -1,0 +1,41 @@
+application: ieeevjcsb
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: no
+
+handlers:
+- url: /img
+  static_dir: img
+- url: /js
+  static_dir: js
+- url: /css
+  static_dir: css
+- url: /bower_components
+  static_dir: bower_components
+- url: /iris
+  static_files: iris.html
+  upload: iris.html
+- url: /Iris
+  static_files: iris.html
+  upload: iris.html
+- url: /register
+  static_files: register.html
+  upload: register.html
+- url: /workshops
+  static_files: workshops.html
+  upload: workshops.html
+- url: /contact
+  static_files: contact.html
+  upload: contact.html
+- url: /s.mp3
+  static_files: s.mp3
+  upload: s.mp3
+- url: /
+  static_files: iris.html
+  upload: iris.html
+- url: /.*
+  static_files: 404.html
+  upload: 404.html
+
+
